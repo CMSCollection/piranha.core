@@ -47,14 +47,14 @@ namespace Piranha.AspNetCore.Identity
         public string Version => Piranha.Utils.GetAssemblyVersion(this.GetType().Assembly);
 
         /// <summary>
-        /// Gets the release date
-        /// </summary>
-        public string ReleaseDate => "2018-05-30";
-
-        /// <summary>
         /// Gets the description
         /// </summary>
         public string Description => "Security module for Piranha CMS using AspNetCore Identity.";
+
+        /// <summary>
+        /// Gets/sets the icon URL.
+        /// </summary>
+        public string IconUrl => "http://piranhacms.org/assets/twitter-shield.png";
 
         /// <summary>
         /// Gets the package url.

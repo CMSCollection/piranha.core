@@ -12323,6 +12323,23 @@ a {
 .dropdown-menu > li > button:hover {
   background-color: #f5f5f5;
 }
+.module .thumbnail {
+  margin-bottom: 0;
+}
+.module dl.dl-horizontal dt {
+  text-align: left;
+  width: 100px;
+}
+.module dl.dl-horizontal dd {
+  margin-left: 100px;
+}
+.module dl.dl-horizontal a {
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 body.collapsed .navmenu-inverse {
   width: 50px;
 }
